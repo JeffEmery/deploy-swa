@@ -15,7 +15,7 @@
 
     <script>
       ;(async function () {
-        const response = await fetch(`/api/message`)
+        const response = await fetch(`/api/message?name=Envision`)
         document.querySelector('#name').textContent = await response.text()
       })()
     </script>
