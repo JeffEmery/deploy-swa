@@ -3,4 +3,4 @@ const { createRequestHandler } = require('./handler')
 
 installGlobals()
 
-module.exports = createRequestHandler({ build: require('/build') })
+module.exports = createRequestHandler({ build: require('../../build') })
